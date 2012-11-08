@@ -1,117 +1,127 @@
+/*** 
+***/
+
+
+/*** Header ***/
+
+#header {
+  background: #773B6E; /* for non-css3 browsers */
+  background: -webkit-gradient(linear, left top, left bottom, from(#A36D9B), to(#773B6E)); /* for webkit browsers */
+  background: -moz-linear-gradient(top,  #A36D9B,  #773B6E); /* for firefox 3.6+ */
+  width:750px;
+  margin: 1.5px ;
+  padding: 30px;
+  margin-bottom: 15px;
+  border: 0px solid #333333; 
+  border-radius:15px;
+  -moz-border-radius:15px; /* Firefox 3.6 and earlier */
+}
+
+#header h1 {
+  font: 50px Allerta;
+  color: #453A44;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+  margin: 0;
+  letter-spacing: 3px;
+
+}
+
+#header h2 { 
+  margin: 0;
+  color: #333333;
+  font-size: 1.2em;
+} 
+
+
+
+/*** Body ***/
 
 body {
   margin: 0;
-  background: #90ADB7 url('../images/background.png') repeat-x;
-  font-family: verdana, sans-serif;
-  font-size: 0.85em;
+  background: #7F7F7F; 
+  font-family: Allerta, sans-serif;
+  font-size: 1em;
 }
 
 #wrapper {
-  width: 960px;
+  width: 950px;
   margin: 0 auto;
 }
 
 p {
   line-height: 1.5em;
-  color: #333;
+  color: #333333;
 }
 
-a:hover {
-  text-decoration: none;
-}
-
-
-
-/*********************
-Navigation
-*********************/
-
-#nav {
-  list-style: none;
-  padding: 0;
-  float: right;
-  margin: 40px 0;
-}
-
-#nav li {
-  float: left;
-  margin-right: 10px;
-  font-size: 1.4em;
-  font-weight: bold;
+.pic {
+  margin-bottom: 20px; 
+  border:1px solid;
+  border-radius:15px;
+  -moz-border-radius:15px; /* Firefox 3.6 and earlier */
 }
 
 
 
-/*********************
-Header
-*********************/
-
-#header {
-  font-style: italic;
-  float: left;
-  margin: 20px 0;
-}
-
-#header h1 {
-  font-size: 3em;
-  margin: 0;
-}
-
-#header h2 {
-  margin: 0;
-  color: #888;
-  font-size: 1.2em;
-}
-
-
-
-/*********************
-Content
-*********************/
+/*** Content ***/
 
 #content {
   float: left;
-  width: 700px;
-  margin-right: 20px;
-}
+  background: #DEDEDE;
+  padding: 15px;
+  margin: 50px;  
+  border-radius:15px;
+  -moz-border-radius:15px; /*** Firefox 3.6 > ***/
+  }
 
 #content .post {
-  background: #FFF;
-  padding: 10px;
-  margin-bottom: 20px;
-  border: 2px solid #CCC;
+  list-style: none;
+  width: 455px;
+  background: #BDBDBD;
+  padding: 35px;
+  margin-bottom: 10px;
+  border: 1px solid #333333;
+  border-radius:15px;
+  -moz-border-radius:25px; /*** Firefox 3.6 > ***/
 }
 
 #content .post h3 {
   margin: 0;
-  color: #333;
+  color: #966696;
 }
 
-.pic {
-  margin-left: 10px;
-  float: right;
-}
+a:link {text-decoration: none;color:#584159;}      /* unvisited link PURPLE*/
+a:visited {text-decoration: none;color:#CC9BCC;}  /* visited link LAVENDER    DOES NOT WORK IN moz */
+a:hover {text-decoration: none; color:#C91EC9;}    /* mouse over link PINK*/
+a:active {text-decoration: none;color:#F5D60C;}   /* selected link YELLOW */ 
 
 
 
-/*********************
-Sidebar
-*********************/
+/*** Sidebar ***/
 
 #sidebar {
-  float: left;
-  width: 200px;
-  background: #FFF;
-  padding: 10px;
-  border: 2px solid #CCC;
+  float:right; 
+  width: 250px;
+  padding: 0px 15px;
 }
 
 #sidebar h3 {
-  margin: 0;
+  color: #966696;
+  padding-top: 5px; 
+}
+
+#sidebar p {
+  line-height: 1.5em;
+  color: #333333;
+  margin: 40px 0px;
+
 }
 
 #sidebar .section {
-  border-top: 2px dashed #CCC;
+  padding-bottom: 15px; 
+}
+
+#sidebar .section {
+  border-top: 2px solid #CCC;
   padding-top: 10px;
 }
 
@@ -119,3 +129,38 @@ Sidebar
   border-top: none;
   padding: 0;
 }
+
+.btn {
+  color: #333333;
+  background: #773B6E; /* for non-css3 browsers */
+  background: -webkit-gradient(linear, left top, left bottom, from(#A36D9B), to(#773B6E)); /* for webkit browsers */
+  background: -moz-linear-gradient(top,  #A36D9B,  #773B6E); /* for firefox 3.6+ */
+  padding: 15px 35px;
+  margin: 40px 40px;
+  border:1px solid;
+  border-radius: 25px;
+  text-transform: uppercase;
+}
+
+.btn:hover {
+  background-color: #F5D60C;
+}
+
+
+
+/*** Nav ***/
+
+#nav {
+  list-style: none;
+}
+
+#nav li {
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+
+
+
+
+
