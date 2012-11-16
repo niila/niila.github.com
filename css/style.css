@@ -1,4 +1,5 @@
 /*** 
+YAY
 ***/
 
 
@@ -132,13 +133,13 @@ a:active {text-decoration: none;color:#F5D60C;}   /* selected link YELLOW */
 
 .btn {
   color: #333333;
-  background: #773B6E; /* for non-css3 browsers */
-  background: -webkit-gradient(linear, left top, left bottom, from(#A36D9B), to(#773B6E)); /* for webkit browsers */
-  background: -moz-linear-gradient(top,  #A36D9B,  #773B6E); /* for firefox 3.6+ */
+  background: #bdbdbd; /* for non-css3 browsers */
+  background: -webkit-gradient(linear, left top, left bottom, from(#bdbdbd), to(#7e7e7e)); /* for webkit browsers */
+  background: -moz-linear-gradient(top,  #bdbdbd,  #7e7e7e); /* for firefox 3.6+ */
   padding: 15px 35px;
   margin: 40px 40px;
   border:1px solid;
-  border-radius: 25px;
+  border-radius: 15px;
   text-transform: uppercase;
 }
 
