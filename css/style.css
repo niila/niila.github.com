@@ -91,7 +91,7 @@ p {
 }
 
 a:link {text-decoration: none;color:#584159;}      /* unvisited link PURPLE*/
-a:visited {text-decoration: none;color:#CC9BCC;}  /* visited link LAVENDER    DOES NOT WORK IN moz */
+a:visited {text-decoration: none;color:#7A797A;}  /* visited link gray    DOES NOT WORK IN moz */
 a:hover {text-decoration: none; color:#C91EC9;}    /* mouse over link PINK*/
 a:active {text-decoration: none;color:#F5D60C;}   /* selected link YELLOW */ 
 
